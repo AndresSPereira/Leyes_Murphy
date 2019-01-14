@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* pagina de estilo hecha por Andrés S. Pereira Ch. el 14/01/2019 */
+body{
+    background:lightgray;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+}
+p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+p:hover{
+    z-index: 3;
+}
+p.m1{
+    background:rgb(255, 212, 128);
+    border:rgb(125, 101, 54) 2px solid;
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+}
+p.m2{
+    background:rgb(128, 255, 128);
+    border:rgb(54, 125, 54) 4px solid;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+}
+p.m3{
+    background:rgb(255, 255, 128);
+    border:rgb(214, 214, 67) 4px solid;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+}
+p.m4{
+    background:rgb(204, 255, 255);
+    border:rgb(159, 198, 198) 4px solid;
+    text-align: right;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+}
+p.m5{
+    background:rgb(255, 229, 255);
+    border:rgb(190, 167, 190) 4px solid;
+    text-align: left;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+}
+p.m6{
+    background:rgb(255, 179, 179);
+    border:rgb(132, 98, 98) 4px solid;
+    text-align: right;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+}
